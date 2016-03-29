@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CAF8B151CAAF1930099E1F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF8B141CAAF1930099E1F0 /* AppDelegate.swift */; };
+		5CAF8B171CAAF1930099E1F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF8B161CAAF1930099E1F0 /* ViewController.swift */; };
+		5CAF8B1A1CAAF1930099E1F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CAF8B181CAAF1930099E1F0 /* Main.storyboard */; };
+		5CAF8B1C1CAAF1930099E1F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CAF8B1B1CAAF1930099E1F0 /* Assets.xcassets */; };
+		5CAF8B1F1CAAF1930099E1F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CAF8B1D1CAAF1930099E1F0 /* LaunchScreen.storyboard */; };
+		5CAF8B2A1CAAF1930099E1F0 /* SumChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF8B291CAAF1930099E1F0 /* SumChatTests.swift */; };
+		5CAF8B351CAAF1930099E1F0 /* SumChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF8B341CAAF1930099E1F0 /* SumChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CAF8B261CAAF1930099E1F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CAF8B091CAAF1930099E1F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CAF8B101CAAF1930099E1F0;
+			remoteInfo = SumChat;
+		};
+		5CAF8B311CAAF1930099E1F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CAF8B091CAAF1930099E1F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CAF8B101CAAF1930099E1F0;
+			remoteInfo = SumChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CAF8B111CAAF1930099E1F0 /* SumChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SumChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CAF8B141CAAF1930099E1F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CAF8B161CAAF1930099E1F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CAF8B191CAAF1930099E1F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CAF8B1B1CAAF1930099E1F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CAF8B1E1CAAF1930099E1F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CAF8B201CAAF1930099E1F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CAF8B251CAAF1930099E1F0 /* SumChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CAF8B291CAAF1930099E1F0 /* SumChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumChatTests.swift; sourceTree = "<group>"; };
+		5CAF8B2B1CAAF1930099E1F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CAF8B301CAAF1930099E1F0 /* SumChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SumChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CAF8B341CAAF1930099E1F0 /* SumChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumChatUITests.swift; sourceTree = "<group>"; };
+		5CAF8B361CAAF1930099E1F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CAF8B0E1CAAF1930099E1F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CAF8B221CAAF1930099E1F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CAF8B2D1CAAF1930099E1F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CAF8B081CAAF1930099E1F0 = {
+			isa = PBXGroup;
+			children = (
+				5CAF8B131CAAF1930099E1F0 /* SumChat */,
+				5CAF8B281CAAF1930099E1F0 /* SumChatTests */,
+				5CAF8B331CAAF1930099E1F0 /* SumChatUITests */,
+				5CAF8B121CAAF1930099E1F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CAF8B121CAAF1930099E1F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CAF8B111CAAF1930099E1F0 /* SumChat.app */,
+				5CAF8B251CAAF1930099E1F0 /* SumChatTests.xctest */,
+				5CAF8B301CAAF1930099E1F0 /* SumChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CAF8B131CAAF1930099E1F0 /* SumChat */ = {
+			isa = PBXGroup;
+			children = (
+				5CAF8B141CAAF1930099E1F0 /* AppDelegate.swift */,
+				5CAF8B161CAAF1930099E1F0 /* ViewController.swift */,
+				5CAF8B181CAAF1930099E1F0 /* Main.storyboard */,
+				5CAF8B1B1CAAF1930099E1F0 /* Assets.xcassets */,
+				5CAF8B1D1CAAF1930099E1F0 /* LaunchScreen.storyboard */,
+				5CAF8B201CAAF1930099E1F0 /* Info.plist */,
+			);
+			path = SumChat;
+			sourceTree = "<group>";
+		};
+		5CAF8B281CAAF1930099E1F0 /* SumChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CAF8B291CAAF1930099E1F0 /* SumChatTests.swift */,
+				5CAF8B2B1CAAF1930099E1F0 /* Info.plist */,
+			);
+			path = SumChatTests;
+			sourceTree = "<group>";
+		};
+		5CAF8B331CAAF1930099E1F0 /* SumChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CAF8B341CAAF1930099E1F0 /* SumChatUITests.swift */,
+				5CAF8B361CAAF1930099E1F0 /* Info.plist */,
+			);
+			path = SumChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CAF8B101CAAF1930099E1F0 /* SumChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CAF8B391CAAF1930099E1F0 /* Build configuration list for PBXNativeTarget "SumChat" */;
+			buildPhases = (
+				5CAF8B0D1CAAF1930099E1F0 /* Sources */,
+				5CAF8B0E1CAAF1930099E1F0 /* Frameworks */,
+				5CAF8B0F1CAAF1930099E1F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SumChat;
+			productName = SumChat;
+			productReference = 5CAF8B111CAAF1930099E1F0 /* SumChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CAF8B241CAAF1930099E1F0 /* SumChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CAF8B3C1CAAF1930099E1F0 /* Build configuration list for PBXNativeTarget "SumChatTests" */;
+			buildPhases = (
+				5CAF8B211CAAF1930099E1F0 /* Sources */,
+				5CAF8B221CAAF1930099E1F0 /* Frameworks */,
+				5CAF8B231CAAF1930099E1F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CAF8B271CAAF1930099E1F0 /* PBXTargetDependency */,
+			);
+			name = SumChatTests;
+			productName = SumChatTests;
+			productReference = 5CAF8B251CAAF1930099E1F0 /* SumChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CAF8B2F1CAAF1930099E1F0 /* SumChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CAF8B3F1CAAF1930099E1F0 /* Build configuration list for PBXNativeTarget "SumChatUITests" */;
+			buildPhases = (
+				5CAF8B2C1CAAF1930099E1F0 /* Sources */,
+				5CAF8B2D1CAAF1930099E1F0 /* Frameworks */,
+				5CAF8B2E1CAAF1930099E1F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CAF8B321CAAF1930099E1F0 /* PBXTargetDependency */,
+			);
+			name = SumChatUITests;
+			productName = SumChatUITests;
+			productReference = 5CAF8B301CAAF1930099E1F0 /* SumChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CAF8B091CAAF1930099E1F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Summon;
+				TargetAttributes = {
+					5CAF8B101CAAF1930099E1F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					5CAF8B241CAAF1930099E1F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5CAF8B101CAAF1930099E1F0;
+					};
+					5CAF8B2F1CAAF1930099E1F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5CAF8B101CAAF1930099E1F0;
+					};
+				};
+			};
+			buildConfigurationList = 5CAF8B0C1CAAF1930099E1F0 /* Build configuration list for PBXProject "SumChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CAF8B081CAAF1930099E1F0;
+			productRefGroup = 5CAF8B121CAAF1930099E1F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CAF8B101CAAF1930099E1F0 /* SumChat */,
+				5CAF8B241CAAF1930099E1F0 /* SumChatTests */,
+				5CAF8B2F1CAAF1930099E1F0 /* SumChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CAF8B0F1CAAF1930099E1F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAF8B1F1CAAF1930099E1F0 /* LaunchScreen.storyboard in Resources */,
+				5CAF8B1C1CAAF1930099E1F0 /* Assets.xcassets in Resources */,
+				5CAF8B1A1CAAF1930099E1F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CAF8B231CAAF1930099E1F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CAF8B2E1CAAF1930099E1F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CAF8B0D1CAAF1930099E1F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAF8B171CAAF1930099E1F0 /* ViewController.swift in Sources */,
+				5CAF8B151CAAF1930099E1F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CAF8B211CAAF1930099E1F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAF8B2A1CAAF1930099E1F0 /* SumChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CAF8B2C1CAAF1930099E1F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAF8B351CAAF1930099E1F0 /* SumChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CAF8B271CAAF1930099E1F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CAF8B101CAAF1930099E1F0 /* SumChat */;
+			targetProxy = 5CAF8B261CAAF1930099E1F0 /* PBXContainerItemProxy */;
+		};
+		5CAF8B321CAAF1930099E1F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CAF8B101CAAF1930099E1F0 /* SumChat */;
+			targetProxy = 5CAF8B311CAAF1930099E1F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CAF8B181CAAF1930099E1F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CAF8B191CAAF1930099E1F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CAF8B1D1CAAF1930099E1F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CAF8B1E1CAAF1930099E1F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CAF8B371CAAF1930099E1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CAF8B381CAAF1930099E1F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CAF8B3A1CAAF1930099E1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SumChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Summon.SumChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CAF8B3B1CAAF1930099E1F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SumChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Summon.SumChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CAF8B3D1CAAF1930099E1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SumChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Summon.SumChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SumChat.app/SumChat";
+			};
+			name = Debug;
+		};
+		5CAF8B3E1CAAF1930099E1F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SumChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Summon.SumChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SumChat.app/SumChat";
+			};
+			name = Release;
+		};
+		5CAF8B401CAAF1930099E1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SumChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Summon.SumChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SumChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5CAF8B411CAAF1930099E1F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SumChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Summon.SumChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SumChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CAF8B0C1CAAF1930099E1F0 /* Build configuration list for PBXProject "SumChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAF8B371CAAF1930099E1F0 /* Debug */,
+				5CAF8B381CAAF1930099E1F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CAF8B391CAAF1930099E1F0 /* Build configuration list for PBXNativeTarget "SumChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAF8B3A1CAAF1930099E1F0 /* Debug */,
+				5CAF8B3B1CAAF1930099E1F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CAF8B3C1CAAF1930099E1F0 /* Build configuration list for PBXNativeTarget "SumChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAF8B3D1CAAF1930099E1F0 /* Debug */,
+				5CAF8B3E1CAAF1930099E1F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CAF8B3F1CAAF1930099E1F0 /* Build configuration list for PBXNativeTarget "SumChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAF8B401CAAF1930099E1F0 /* Debug */,
+				5CAF8B411CAAF1930099E1F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CAF8B091CAAF1930099E1F0 /* Project object */;
+}

@@ -97,6 +97,7 @@
 		5CAF8B131CAAF1930099E1F0 /* SumChat */ = {
 			isa = PBXGroup;
 			children = (
+				5CAF8B421CAAF6DB0099E1F0 /* Chat */,
 				5CAF8B141CAAF1930099E1F0 /* AppDelegate.swift */,
 				5CAF8B161CAAF1930099E1F0 /* ViewController.swift */,
 				5CAF8B181CAAF1930099E1F0 /* Main.storyboard */,
@@ -123,6 +124,61 @@
 				5CAF8B361CAAF1930099E1F0 /* Info.plist */,
 			);
 			path = SumChatUITests;
+			sourceTree = "<group>";
+		};
+		5CAF8B421CAAF6DB0099E1F0 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				5CAF8B481CAAF7160099E1F0 /* Manager */,
+				5CAF8B471CAAF70A0099E1F0 /* Resouces */,
+				5CAF8B461CAAF6F70099E1F0 /* Controllers */,
+				5CAF8B451CAAF6F10099E1F0 /* Views */,
+				5CAF8B441CAAF6EA0099E1F0 /* Models */,
+				5CAF8B431CAAF6E10099E1F0 /* CoreData */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		5CAF8B431CAAF6E10099E1F0 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		5CAF8B441CAAF6EA0099E1F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5CAF8B451CAAF6F10099E1F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5CAF8B461CAAF6F70099E1F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5CAF8B471CAAF70A0099E1F0 /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resouces;
+			sourceTree = "<group>";
+		};
+		5CAF8B481CAAF7160099E1F0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,6 +542,7 @@
 				5CAF8B3B1CAAF1930099E1F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CAF8B3C1CAAF1930099E1F0 /* Build configuration list for PBXNativeTarget "SumChatTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +551,7 @@
 				5CAF8B3E1CAAF1930099E1F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CAF8B3F1CAAF1930099E1F0 /* Build configuration list for PBXNativeTarget "SumChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +560,7 @@
 				5CAF8B411CAAF1930099E1F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
